@@ -1,0 +1,83 @@
+h1{
+    margin: auto;
+    position: relative;
+    height: 5vw;
+    width: 33vw;
+    font-size: 50px;
+}
+
+#clockContainer{
+    margin: auto;
+    position: relative;
+    background: url(Clock.png) no-repeat;
+    background-size: 100%;
+    height: 40vw;
+    width: 40vw;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+#month, #date, #adder, #ader{
+    position: absolute;
+}
+
+#month{
+    border-radius: 10px;
+    width: 12%;
+    height: 8%;
+    top: 46%;
+    left: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 180%;
+}
+
+#date{
+    border-radius: 10px;
+    width: 12%;
+    height: 8%;
+    top: 46%;
+    left: 62%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 170%;
+}
+
+#adder{
+    font-size: smaller;
+    top: 44%;
+    left: 20%;
+}
+
+#ader{
+    font-size: smaller;
+    top: 44%;
+    left: 62%;
+}
